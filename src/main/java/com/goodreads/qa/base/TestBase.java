@@ -18,8 +18,9 @@ public	static Properties prop;
 	public TestBase() {
 		try {
 			prop = new Properties();
-			FileInputStream ip = new FileInputStream(
-					"C:/back up Desktop/Selenium/BookselectionTest/src/main/java/com/goodreads/qa/config/config.properties");
+			FileInputStream ip = new FileInputStream(System.getProperty("user.dir")+"\\src\\main\\java\\com\\goodreads\\qa\\config\\config.properties");
+//			FileInputStream ip = new FileInputStream(
+//					"C:/back up Desktop/Selenium/BookselectionTest/src/main/java/com/goodreads/qa/config/config.properties");
 			prop.load(ip);
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
@@ -31,7 +32,8 @@ public	static Properties prop;
 	public static void initialization() {
 		String browseName = prop.getProperty("browser");
 		if (browseName.equals("chrome")) {
-			System.setProperty("webdriver.chrome.driver","C:/Users/pavit/Downloads/chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+"\\chromedriver.exe");
+//			System.setProperty("webdriver.chrome.driver","C:/Users/pavit/Downloads/chromedriver.exe");
 			driver = new ChromeDriver();
 		}
 		driver.manage().window().maximize();

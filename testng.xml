@@ -6,7 +6,7 @@
 	</listeners>
 	<test name="Test">
 		<classes>
-			<class name="com.goodreads.qa.test.LoginPageTest" />
+			<class name="com.goodreads.qa.test.AssignmentTest" />
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->
