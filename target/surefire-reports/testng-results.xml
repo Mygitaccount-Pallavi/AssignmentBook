@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-05-26T22:27:56Z" name="Surefire suite" finished-at="2020-05-26T22:29:08Z" duration-ms="72622">
+    <groups>
+    </groups>
+    <test started-at="2020-05-26T22:27:56Z" name="Surefire test" finished-at="2020-05-26T22:29:08Z" duration-ms="72622">
+      <class name="com.goodreads.qa.test.LoginPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.goodreads.qa.test.LoginPageTest@294425a7]" started-at="2020-05-27T03:57:56Z" name="setUp" finished-at="2020-05-27T03:58:48Z" duration-ms="52323" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginPageTitleTest()[pri:1, instance:com.goodreads.qa.test.LoginPageTest@294425a7]" started-at="2020-05-27T03:58:48Z" name="loginPageTitleTest" finished-at="2020-05-27T03:58:48Z" duration-ms="83" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageTitleTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.goodreads.qa.test.LoginPageTest@294425a7]" started-at="2020-05-27T03:58:48Z" name="teardown" finished-at="2020-05-27T03:58:50Z" duration-ms="1967" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.goodreads.qa.test.LoginPageTest@294425a7]" started-at="2020-05-27T03:58:50Z" name="setUp" finished-at="2020-05-27T03:59:06Z" duration-ms="15697" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginTest()[pri:2, instance:com.goodreads.qa.test.LoginPageTest@294425a7]" started-at="2020-05-27T03:59:06Z" name="loginTest" finished-at="2020-05-27T03:59:07Z" duration-ms="1296" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.goodreads.qa.test.LoginPageTest@294425a7]" started-at="2020-05-27T03:59:07Z" name="teardown" finished-at="2020-05-27T03:59:08Z" duration-ms="1210" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.goodreads.qa.test.LoginPageTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
