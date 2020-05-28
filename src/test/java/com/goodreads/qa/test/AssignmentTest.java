@@ -27,8 +27,6 @@ public class AssignmentTest extends TestBase {
 		super();
 	}
 
-	public ExtentReportsNG extent;
-
 	@BeforeMethod
 	public void setUp() {
 		initialization();
@@ -48,6 +46,7 @@ public class AssignmentTest extends TestBase {
 		searchResultPage.getBooklink(bookInfo);
 
 	}
+
 	@AfterMethod
 	public void teardown() {
 		driver.quit();
